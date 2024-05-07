@@ -6,6 +6,16 @@
   align-items: center;
 }
 
+.container {
+  width: 800px;
+  max-width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   font-size: 2rem;
 }
@@ -19,7 +29,9 @@
 }
 
 .akinatorImage {
-  width: 50%;
+  width: 400px;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .questionBox {
@@ -29,7 +41,7 @@
   background-color: rgb(223, 238, 245);
   border-radius: 10px;
   padding: 1rem;
-  width: 50%;
+  width: 400px;
 }
 
 .optionsList {
@@ -38,7 +50,15 @@
   gap: 1rem;
 }
 
-.option {
+.winButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
   background-color: #93c8da;
   border: none;
   border-radius: 5px;
@@ -49,7 +69,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.option:hover {
+button:hover {
   background-color: #80bccf;
 
   transition: .2s ease-in-out;
