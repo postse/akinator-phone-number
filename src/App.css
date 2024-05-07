@@ -26,6 +26,8 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  padding-block: 1rem;
+  box-sizing: border-box;
 }
 
 .akinatorImage {
@@ -73,4 +75,10 @@ button:hover {
   background-color: #80bccf;
 
   transition: .2s ease-in-out;
+}
+
+@media (max-width: 810px) {
+  .mainContent {
+    flex-direction: column;
+  }
 }
