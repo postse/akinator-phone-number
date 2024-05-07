@@ -17,6 +17,7 @@ function App() {
   useEffect(() => {
     let randomQuestionIndex = Math.floor(Math.random() * questionsLeft.length);
     setCurrentQuestionIndex(randomQuestionIndex);
+    // eslint-disable-next-line
   }, [])
 
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
         makeGuess();
       }
     }
+    // eslint-disable-next-line
   }, [guessNumber])
 
   const answerSubmitted = () => {
@@ -85,7 +87,7 @@ function App() {
       <div className='container'>
         <h3 className='header'>Allow Akinator to guess your phone number</h3>
         <div className='mainContent'>
-          <img src={akinator} className='akinatorImage' />
+          <img src={akinator} alt='akinator' className='akinatorImage' />
           <div className='questionBox'>
             {
               akinatorState.description === akinatorStates.QUESTION.description && (

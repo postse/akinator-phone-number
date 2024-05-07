@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95e80490.css",
+    "main.js": "/static/js/main.4d4d423e.js",
+    "static/js/453.b294c92e.chunk.js": "/static/js/453.b294c92e.chunk.js",
+    "static/media/akinator.png": "/static/media/akinator.72924a9404c362e9ea04.png",
+    "index.html": "/index.html",
+    "main.95e80490.css.map": "/static/css/main.95e80490.css.map",
+    "main.4d4d423e.js.map": "/static/js/main.4d4d423e.js.map",
+    "453.b294c92e.chunk.js.map": "/static/js/453.b294c92e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95e80490.css",
+    "static/js/main.4d4d423e.js"
+  ]
+}
